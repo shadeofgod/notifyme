@@ -1,0 +1,28 @@
+{
+  "name": "notifyme",
+  "version": "1.0.0",
+  "description": "a tool that notifys you at any given time",
+  "main": "index.js",
+  "bin": {
+    "notifyme": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shadeofgod/notifyme.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shadeofgod/notifyme/issues"
+  },
+  "homepage": "https://github.com/shadeofgod/notifyme#readme",
+  "dependencies": {
+    "commander": "^2.19.0",
+    "node-cron": "^2.0.3",
+    "node-notifier": "^5.4.0",
+    "ora": "^3.1.0"
+  }
+}
